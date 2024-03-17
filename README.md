@@ -23,7 +23,7 @@ FROM python:3.9
 
 WORKDIR /DockerTest
 
-COPY DHBW-Docker-Assignment-App.py .
+COPY DHBW-Docker-Assignment-App.py
 
 CMD ["python", "DHBW-Docker-Assignment-App.py"]
 ```
