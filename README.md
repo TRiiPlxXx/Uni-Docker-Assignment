@@ -41,7 +41,7 @@ Führen Sie den folgenden Befehl aus, um den Container zu starten und die Anwend
 docker run -it DHBW-Docker-Assignment-App
 ```
 ### 5. Image in den Docker Hub hochladen:
-Melden Sie sich an Ihrem Docker Hub-Account an und markieren Sie Ihr Image als "public".
+Melden Sie sich an Ihrem Docker Hub-Account an und markieren Sie Ihr Image als ```"public"```.
 
 Führen Sie den folgenden Befehl aus, um das Image in den Docker Hub hochzuladen:
 ```
@@ -58,7 +58,7 @@ docker run -it DHBW-Docker-Assignment-App
 ```
 ### 7. Anwendung verändern und lokal speichern:
 
-Verändern Sie den Inhalt der Datei DHBW-Docker-Assignment-App.py auf dem ersten Rechner.
+Verändern Sie den Inhalt der Datei ```DHBW-Docker-Assignment-App.py``` auf dem ersten Rechner.
 
 Führen Sie den folgenden Befehl aus, um ein neues Image mit den Änderungen zu erstellen:
 ```
@@ -70,7 +70,7 @@ docker save DHBW-Docker-Assignment-App > DHBW-Docker-Assignment-App.tar
 ```
 ### 8. Image auf einem anderen Rechner laden und ausführen:
 
-Kopieren Sie die Datei DHBW-Docker-Assignment-App.tar auf den anderen Rechner.
+Kopieren Sie die Datei ```DHBW-Docker-Assignment-App.tar``` auf den anderen Rechner.
 
 Führen Sie den folgenden Befehl aus, um das Image zu laden:
 ```
