@@ -61,7 +61,7 @@ Auf einem anderen Rechner mit installiertem Docker führen Sie folgende Befehle 
 docker pull dhbw-docker-assignment-app
 ```
 ```
-docker run -it dhbw-docker-assignment-app
+docker run -d dhbw-docker-assignment-app
 ```
 ### 7. Anwendung verändern und lokal speichern:
 
