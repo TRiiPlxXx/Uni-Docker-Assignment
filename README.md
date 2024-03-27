@@ -63,6 +63,10 @@ docker pull jsnwolfer/dhbw-docker-assignment-app
 ```
 docker run -d jsnwolfer/dhbw-docker-assignment-app
 ```
+Zum veranschaulichen, dass der Container im Hintergrund läuft:
+```
+docker logs [CONTAINER]
+```
 ### 7. Anwendung verändern und lokal speichern:
 
 Verändern Sie den Inhalt der Datei ```dhbw-docker-assignment-app.py``` auf dem ersten Rechner.
