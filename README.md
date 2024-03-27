@@ -46,6 +46,9 @@ Melden Sie sich an Ihrem Docker Hub-Account an und markieren Sie Ihr Image als `
 
 Führen Sie den folgenden Befehl aus, um das Image in den Docker Hub hochzuladen:
 ```
+docker login
+```
+```
 docker build -t jsnwolfer/dhbw-docker-assignment-app:latest .
 ```
 ```
@@ -54,10 +57,6 @@ docker push jsnwolfer/dhbw-docker-assignment-app:latest
 ### 6. Image auf einem anderen Rechner herunterladen und ausführen:
 
 Auf einem anderen Rechner mit installiertem Docker führen Sie folgende Befehle aus, um das Image herunterzuladen und den Container zu starten:
-```
-docker login
-```
-
 ```
 docker pull dhbw-docker-assignment-app
 ```
