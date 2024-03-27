@@ -67,27 +67,3 @@ Zum veranschaulichen, dass der Container im Hintergrund läuft:
 ```
 docker logs [CONTAINER]
 ```
-### 7. Anwendung verändern und lokal speichern:
-
-Verändern Sie den Inhalt der Datei ```dhbw-docker-assignment-app.py``` auf dem ersten Rechner.
-
-Führen Sie den folgenden Befehl aus, um ein neues Image mit den Änderungen zu erstellen:
-```
-docker build -t dhbw-docker-assignment-app
-```
-Speichern Sie das Image lokal mit dem folgenden Befehl:
-```
-docker save dhbw-docker-assignment-app > dhbw-docker-assignment-app.tar
-```
-### 8. Image auf einem anderen Rechner laden und ausführen:
-
-Kopieren Sie die Datei ```dhbw-docker-assignment-app.tar``` auf den anderen Rechner.
-
-Führen Sie den folgenden Befehl aus, um das Image zu laden:
-```
-docker load < dhbw-docker-assignment-app.tar
-```
-Führen Sie den folgenden Befehl aus, um den Container mit der neuen Version der Anwendung zu starten:
-```
-docker run -it dhbw-docker-assignment-app
-```
