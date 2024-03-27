@@ -58,7 +58,7 @@ docker push jsnwolfer/dhbw-docker-assignment-app:latest
 
 Auf einem anderen Rechner mit installiertem Docker führen Sie folgende Befehle aus, um das Image herunterzuladen und den Container zu starten:
 ```
-docker pull dhbw-docker-assignment-app
+docker pull jsnwolfer/dhbw-docker-assignment-app
 ```
 ```
 docker run -d dhbw-docker-assignment-app
