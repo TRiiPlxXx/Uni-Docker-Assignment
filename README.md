@@ -37,7 +37,7 @@ Führen Sie den folgenden Befehl im Terminal aus, um das Image zu erstellen:
 docker build -t dhbw-docker-assignment-app .
 ```
 ### 4. Container ausführen:
-Führen Sie den folgenden Befehl aus, um den Container zu starten und die Anwendung auszuführen:
+Führen Sie den folgenden Befehl aus, um den Container zu starten und die Anwendung im Hintergrund auszuführen:
 ```
 docker run -d dhbw-docker-assignment-app
 ```
