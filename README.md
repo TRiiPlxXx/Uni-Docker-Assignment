@@ -9,7 +9,8 @@ mkdir DockerTest && cd DockerTest
 nano dhbw-docker-assignment-app.py
 ```
 ```
-print("Hello World!")
+while True:
+  print("Hello World!")
 ```
 ### 2. Dockerfile erstellen:
 Erstellen Sie im selben Ordner eine Datei ```dockerfile``` mit folgendem Inhalt:
@@ -38,7 +39,7 @@ docker build -t dhbw-docker-assignment-app .
 ### 4. Container ausführen:
 Führen Sie den folgenden Befehl aus, um den Container zu starten und die Anwendung auszuführen:
 ```
-docker run -it dhbw-docker-assignment-app
+docker run -d dhbw-docker-assignment-app
 ```
 ### 5. Image in den Docker Hub hochladen:
 Melden Sie sich an Ihrem Docker Hub-Account an und markieren Sie Ihr Image als ```"public"```.
