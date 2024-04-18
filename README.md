@@ -41,6 +41,11 @@ Führen Sie den folgenden Befehl aus, um den Container zu starten und die Anwend
 ```
 docker run -d dhbw-docker-assignment-app
 ```
+Zum veranschaulichen, dass der Container im Hintergrund läuft:
+```
+docker logs [CONTAINER]
+```
+
 ### 5. Image in den Docker Hub hochladen:
 Melden Sie sich an Ihrem Docker Hub-Account an und markieren Sie Ihr Image als ```"public"```.
 
